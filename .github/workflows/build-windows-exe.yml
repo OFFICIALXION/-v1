@@ -31,5 +31,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: 시간표점검-windows-exe
+          name: timetable-checker-windows-exe
           path: dist/시간표점검.exe
